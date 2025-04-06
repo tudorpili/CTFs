@@ -122,9 +122,9 @@ Aceasta provocare ne cere sa decodam un mesaj ascuns intr-un fisier binar si sa 
    - Observam ca se scrie citesc date intr-un fisier pe nume message.txt si se codifica.
 
 2. **Decodificarea mesajului:**
-   - Vom face un script **ctf-4base64.py** care prin brute-force, scrie in message.txt si trece prin toate posibilitatile oferind un scor pentru a reduce din timpul de cautare.
+   - Vom face un script **script2.py** care prin brute-force, scrie in message.txt si trece prin toate posibilitatile oferind un scor pentru a reduce din timpul de cautare.
    - Astfel scriptul nu dureaza a fi rulat mai mult de 1 minut.
-   - Rulam script-ul și obținem mesajul original.
+   - Rulam script-ul și obținem mesajul: **yessiiamxaxcriminallmastermindxbeawareaa** din care ne putem da seama ca mesajul original este **yes_i_am_a_criminal_mastermind_beaware**
 
 3. **Calcularea flag-ului:**
    - Calculam hash-ul SHA-256 al mesajului original:
